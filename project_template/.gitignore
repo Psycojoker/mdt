@@ -16,3 +16,4 @@ settings_local.py
 *.swp
 *.swo
 *.index
+ve/
