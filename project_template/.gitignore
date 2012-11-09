@@ -16,3 +16,6 @@ settings_local.py
 *.swp
 *.swo
 *.index
+ve/
+db.sqlite
+COFFEESCRIPT_CACHE
