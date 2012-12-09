@@ -1,3 +1,4 @@
+-load coffeescript
 <!DOCTYPE html>
 %html
 
@@ -75,6 +76,13 @@
 
     <!-- Included JS Files (Compressed) -->
     %script{"src": "{{ STATIC_URL }}javascripts/foundation.min.js"}
+
+    -# backbone
+    %script{"src": "{{ STATIC_URL }}javascripts/underscore-min.js"}
+    %script{"src": "{{ STATIC_URL }}javascripts/backbone-min.js"}
+
+    -# django
+    %script{type: "text/javascript", src: "{{ STATIC_URL }}javascripts/ajax_django_magic.js"}
 
     <!-- Initialize JS Plugins -->
     %script{"src": "{{ STATIC_URL }}javascripts/app.js"}

@@ -50,6 +50,8 @@ STATICFILES_FINDERS = (
 #    'django.contrib.staticfiles.finders.DefaultStorageFinder',
 )
 
+COFFEESCRIPT_LOCATION = SUBPROJECT_PATH + '/static/coffeescript/'
+
 SECRET_KEY = '{{ secret_key }}'
 
 TEMPLATE_LOADERS = (
